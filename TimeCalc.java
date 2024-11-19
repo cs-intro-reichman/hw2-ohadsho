@@ -13,26 +13,26 @@ public class TimeCalc {
         int newMinutes = Totalminutes - (totalHours*60);
 
         if(newHours<= 11 && newMinutes>=10){
-			System.out.println(newHours + ":" + newMinutes + " AM");
+			System.out.println(newHours + ":" + newMinutes);
 		}
 		else if(newHours<= 11 && newMinutes<10){
-			System.out.println(newHours + ":0" + newMinutes + " AM");
+			System.out.println(newHours + ":0" + newMinutes);
 			
 		}
 		else if(newHours == 12 && newMinutes>=10){
-			System.out.println(newHours + ":" + newMinutes + " PM");
+			System.out.println(newHours + ":" + newMinutes);
 			
 
 		}
 		else if(newHours == 12 && newMinutes<10){
-			System.out.println(newHours + ":0" + newMinutes + " PM");
+			System.out.println(newHours + ":0" + newMinutes);
 
 		}
 		else if(newMinutes>=10 ){
-			System.out.println(newHours -12 + ":" + newMinutes + " PM");
+			System.out.println(newHours -12 + ":" + newMinutes);
 		}
 		else{
-			System.out.println(newHours -12 + ":0" + newMinutes + " PM");
+			System.out.println(newHours -12 + ":0" + newMinutes);
 		}
     }
 }

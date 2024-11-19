@@ -12,11 +12,11 @@ public class Cheers {
 
                 for(int i=0; i<name.length(); i++ ){
                         if(name.charAt(i) ==('A') ||name.charAt(i) ==('E')||name.charAt(i) ==('F') ||name.charAt(i) ==('H')||name.charAt(i) ==('I')||name.charAt(i) ==('L') ||name.charAt(i) ==('M')||name.charAt(i) ==('N')||name.charAt(i) ==('O')||name.charAt(i) ==('R')||name.charAt(i) ==('S')||name.charAt(i) ==('X')){
-                                System.out.println("give me "+ spell2+ " "+ name.charAt(i)+": " + name.charAt(i) +"!");
+                                System.out.println("Give me "+ spell2+ " "+ name.charAt(i)+": " + name.charAt(i) +"!");
 
                    }
                    else{
-                        System.out.println("give me " +spell +"  " + name.charAt(i)+": " + name.charAt(i) +"!");
+                        System.out.println("Give me " +spell +"  " + name.charAt(i)+": " + name.charAt(i) +"!");
                    }
                         
                 }
