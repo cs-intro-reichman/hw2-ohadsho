@@ -20,6 +20,6 @@ public class CalcPi {
 			divide = divide +2;
 		}
 		System.out.println("pi accorrding to Java: " + Math.PI);
-		System.out.println("pi, approximated:      " + pi*4.0);
+		System.out.println("pi, approximated:     " + pi*4.0);
 	}
 }
