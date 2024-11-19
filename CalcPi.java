@@ -8,7 +8,7 @@ public class CalcPi {
 
 
 
-		for (int i=0 ; i<times; i++){
+		for (int i=0 ; i<times-1; i++){
 			 if(i%2 ==0){
 			pi = (pi-(1.0/divide));
 			System.out.println(pi);

@@ -28,11 +28,9 @@ public class Collatz {
 				}
 			}
 			times ++;
-			System.out.print(seed +" " +"(" + times + ")");
+			System.out.print(seed +" " +"("+ times +")");
 			times =0;
-			if(i<=N){
-			System.out.println(" ");
-		}
+			System.out.println("");
 			
 		}
 			}
