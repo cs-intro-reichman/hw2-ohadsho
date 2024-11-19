@@ -15,30 +15,46 @@ public class TimeCalc {
         if(newHours<= 11 && newMinutes>=10){
 			if(newHours<10)
 			System.out.println( "0" +newHours + ":" + newMinutes);
+			else
+			System.out.println( newHours + ":" + newMinutes);
+
+
 		}
 		else if(newHours<= 11 && newMinutes<10){
 			if(newHours<10)
 			System.out.println("0" +newHours + ":0" + newMinutes);
-			
+			else
+			System.out.println(newHours + ":0" + newMinutes);
+
 		}
 		else if(newHours == 12 && newMinutes>=10){
 			if(newHours<10)
 			System.out.println("0" +newHours + ":" + newMinutes);
+			else
+			System.out.println(newHours + ":" + newMinutes);
+
 			
 
 		}
 		else if(newHours == 12 && newMinutes<10){
 			if(newHours<10)
 			System.out.println("0" +newHours + ":0" + newMinutes);
+			else
+			System.out.println(newHours + ":0" + newMinutes);
 
 		}
 		else if(newMinutes>=10 ){
 			if(newHours<10)
 			System.out.println("0" +(newHours -12) + ":" + newMinutes);
+			else
+			System.out.println((newHours -12) + ":" + newMinutes);
+
 		}
 		else{
 			if(newHours<10)
 			System.out.println("0" +(newHours -12) + ":0" + newMinutes);
+			else
+			System.out.println((newHours -12) + ":0" + newMinutes);
 		}
     }
 }

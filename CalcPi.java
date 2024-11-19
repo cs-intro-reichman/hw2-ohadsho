@@ -17,9 +17,9 @@ public class CalcPi {
 			pi = (pi+(1.0/divide));
 			System.out.println(pi);
 		}
-			divide = divide +2;
+			divide = divide +2.0;
 		}
-		System.out.println("pi accorrding to Java: " + Math.PI);
+		System.out.println("pi according to Java: " + Math.PI);
 		System.out.println("pi, approximated:     " + pi*4.0);
 	}
 }
