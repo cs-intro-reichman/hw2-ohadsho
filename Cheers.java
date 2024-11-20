@@ -5,7 +5,6 @@ public class Cheers {
                 String name = args[0];
                 name = name.toUpperCase();
                 int times = Integer.parseInt(args[1]);
-                System.out.println(name.indexOf(name));
                 char spell = 'a';
                 String spell2 = "an";
 
